@@ -1,0 +1,11 @@
+{
+    "$schema": "https://raw.githubusercontent.com/tonytins/motive-engine/main/schema/lot.json",
+  "width": 8,
+  "height": 6,
+  "household": "casey",
+  "items": [
+  ],
+  "sims": [
+
+  ]
+}

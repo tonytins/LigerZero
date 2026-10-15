@@ -1,0 +1,15 @@
+{
+  "originHash" : "82c8ea085526da2991caca7400838750ee437955bd2811539e010c8cd042cc0b",
+  "pins" : [
+    {
+      "identity" : "motive-engine",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/tonytins/motive-engine.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "4636609cf7129b22b3fb0a5234b9a84a523b9979"
+      }
+    }
+  ],
+  "version" : 3
+}

@@ -1,0 +1,6 @@
+{
+    "$schema": "https://raw.githubusercontent.com/tonytins/motive-engine/main/schema/pack.json",
+  "id": "base",
+  "name": "LigerZero Base Content",
+  "version": 1
+}
