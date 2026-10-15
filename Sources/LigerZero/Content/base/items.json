@@ -1,6 +1,106 @@
 {
     "$schema": "https://raw.githubusercontent.com/tonytins/motive-engine/main/schema/pack-items.json",
     "items": [
-        
+        {
+            "id": "fridge",
+            "name": "Fridge",
+            "modifiers": [
+                "appliance"
+            ],
+            "interactions": [
+                {
+                    "id": "eat",
+                    "name": "Have a Snack",
+                    "duration": 20,
+                    "advertises": {
+                        "hunger": 2
+                    },
+                    "effects": {
+                        "hunger": 2
+                    }
+                }
+            ]
+        },
+        {
+            "id": "coffee",
+            "name": "Coffee Maker",
+            "modifiers": [
+                "appliance"
+            ],
+            "interactions": [
+                {
+                    "id": "drink",
+                    "name": "Drink Coffee",
+                    "duration": 20,
+                    "advertises": {
+                        "energy": 0.8
+                    },
+                    "effects": {
+                        "energy": 0.8
+                    }
+                }
+            ]
+        },
+        {
+            "id": "bed",
+            "name": "Bed",
+            "modifiers": [
+                "bed"
+            ],
+            "interactions": [
+                {
+                    "id": "sleep",
+                    "name": "Sleep",
+                    "duration": 20,
+                    "advertises": {
+                        "energy": 1.5
+                    },
+                    "effects": {
+                        "energy": 1.5
+                    }
+                }
+            ]
+        },
+        {
+            "id": "shower",
+            "name": "Shower",
+            "modifiers": [
+                "shower"
+            ],
+            "interactions": [
+                {
+                    "id": "shower",
+                    "name": "Take a Shower",
+                    "duration": 20,
+                    "advertises": {
+                        "hygiene": 2.5
+                    },
+                    "effects": {
+                        "hygiene": 2.5
+                    }
+                }
+            ]
+        },
+        {
+            "id": "stereo",
+            "name": "Stereo",
+            "modifiers": [
+                "ambient",
+                "recreation"
+            ],
+            "signals": {
+                "fun": 0.6
+            }
+        },
+        {
+            "id": "rare-gem",
+            "name": "Rare Gem",
+            "modifiers": [
+                "ambient"
+            ],
+            "signals": {
+                "energy": 0.2
+            }
+        }
     ]
 }

@@ -2,6 +2,7 @@
 // https://docs.swift.org/swift-book
 
 import ArgumentParser
+import MotiveEngine
 
 @main
 struct LigerZero: AsyncParsableCommand {
