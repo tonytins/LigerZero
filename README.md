@@ -1,6 +1,6 @@
 # Project Liger Zero
 
-Written in Swift, Liger Zero is a prototype life simulation game based on [Motives Engine](https://github.com/tonytins/motive-engine), the AI library, and a future game engine.
+Written in Swift, Liger Zero is a prototype life simulation game based on [Motive Engine](https://github.com/tonytins/motive-engine), the AI library, and a future game engine.
 
 ## 🧰 Minimum Requirements
 

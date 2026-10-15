@@ -1,6 +1,10 @@
 # Modding Guide
 
-Liger Zero is based on the Motive Engine, my life simulation framework. 
+Liger Zero is a life simulation game 
+inspired by The Sims and built on
+[Motive Engine](https://github.com/tonytins/motive-engine), 
+my own framework.
+
 All game content is loaded through content packs. The base game, its
 expansions, or your mods use the
 same format, so anything the base game can define, 
@@ -107,8 +111,6 @@ negative rates drain it.
 more than it delivers, like a fancy fridge whose food is disappointing, and
 free will still falls for it.
 
-The full schema is [`schema/pack-items.json`](../schema/pack-items.json).
-
 ## Scripts
 
 A script decides an interaction's effects when a Sim starts it. Scripts are
@@ -132,7 +134,7 @@ Every script needs a `default` state with a `stateEntry()` function. The
 engine runs it once, when a Sim starts the interaction. The effects it
 reports stay the same until the interaction ends.
 
-### What a script can read
+### What a Script Can Read
 
 | Value | Type |
 | --- | --- |
@@ -155,9 +157,6 @@ interaction has a script, the script's effects replace that interaction's
 
 Scripts can't change anything else in the game directly, and `print` output
 is not shown during play.
-
-For the full language, see the
-[Robusta reference](../Sources/MotiveEngine/VM/README.md).
 
 ### Limits
 

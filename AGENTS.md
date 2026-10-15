@@ -1,7 +1,7 @@
 # AGENTS.md: guide for AI agents and contributors
 
 Liger Zero (TSO LZ) is a prototype life simulation game that re-imagines
-The Sims Online. It's written in **Swift only** (Swift 6.3, language mode 6)
+The Sims. It's written in **Swift only** (Swift 6.3, language mode 6)
 as a Swift package, and builds on
 [Motive Engine](https://github.com/tonytins/motive-engine), the owner's
 needs-driven simulation library. Write the name as **Liger Zero** in prose
@@ -56,8 +56,8 @@ trap.
 
 ### Project rules
 
-1. **Dependencies.** Motive Engine is the only dependency. Don't add another
-   without the owner's approval.
+1. **Dependencies.** Motive Engine and Swift Argument Parser are the only
+   dependencies. Don't add another without the owner's approval.
 2. **Deterministic simulation.** Take randomness from a stored seed and
    don't read the clock inside simulation logic, so runs can be reproduced.
 3. **Tests are the gate.** Swift Testing (`import Testing`, `@Test`), never
